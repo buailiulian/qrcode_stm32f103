@@ -1,0 +1,13 @@
+.\obj\stm32f10x_fsmc.o: StdPeriphDriver\src\stm32f10x_fsmc.c
+.\obj\stm32f10x_fsmc.o: .\StdPeriphDriver\inc\stm32f10x_fsmc.h
+.\obj\stm32f10x_fsmc.o: .\CMSIS\stm32f10x.h
+.\obj\stm32f10x_fsmc.o: .\CMSIS\core_cm3.h
+.\obj\stm32f10x_fsmc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\stm32f10x_fsmc.o: .\CMSIS\system_stm32f10x.h
+.\obj\stm32f10x_fsmc.o: .\Users\stm32f10x_conf.h
+.\obj\stm32f10x_fsmc.o: .\StdPeriphDriver\inc\stm32f10x_flash.h
+.\obj\stm32f10x_fsmc.o: .\CMSIS\stm32f10x.h
+.\obj\stm32f10x_fsmc.o: .\StdPeriphDriver\inc\stm32f10x_fsmc.h
+.\obj\stm32f10x_fsmc.o: .\StdPeriphDriver\inc\stm32f10x_gpio.h
+.\obj\stm32f10x_fsmc.o: .\StdPeriphDriver\inc\stm32f10x_rcc.h
+.\obj\stm32f10x_fsmc.o: .\StdPeriphDriver\inc\misc.h

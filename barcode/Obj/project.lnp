@@ -1,0 +1,20 @@
+--cpu Cortex-M3
+".\obj\system_stm32f10x.o"
+".\obj\core_cm3.o"
+".\obj\misc.o"
+".\obj\stm32f10x_gpio.o"
+".\obj\stm32f10x_rcc.o"
+".\obj\stm32f10x_flash.o"
+".\obj\stm32f10x_fsmc.o"
+".\obj\startup_stm32f10x_hd.o"
+".\obj\gui.o"
+".\obj\lcd_driver.o"
+".\obj\led.o"
+".\obj\qr_encode.o"
+".\obj\main.o"
+".\obj\stm32f10x_it.o"
+".\obj\public.o"
+--strict --scatter ".\Obj\project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\List\project.map" -o .\Obj\project.axf
